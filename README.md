@@ -17,3 +17,5 @@ However later dropped due to insufficient performance/results.
 3. **gan.ipynb:** GAN model uses the audio files as input to generator and further evaluates the generated audio using different metrics.
 
 4. **Dataset Link:** https://magenta.tensorflow.org/datasets/nsynth. Downloaded the JSON format.
+
+5. **Project Report.pdf:** Project report that summarizes the results of the utilized models.
