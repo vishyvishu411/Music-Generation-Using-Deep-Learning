@@ -6,4 +6,14 @@ Short-Term Memory (LSTM) networks, Auto-Encoders, and Generative Adversarial Net
 
 The project leveraged 4-second instrument-specific audio clips from Google’s NSynth dataset as
 input to the generator, ensuring the production of high-quality, instrument-specific audio content
-for various short-form media applications.
+for various short-form media applications. Please follow the following to view files 
+
+**LSTM.ipynb:** This file utilizes LSTM to predict sequences of spectrograms to
+generate spectrograms which are later converted into audio files in ‘.wav’ format.
+
+**VAE-gtzan.ipynb:** VAE model for gtzan dataset, https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification.
+However later dropped due to insufficient performance/results.
+
+**gan.ipynb:** GAN model uses the audio files as input to generator and further evaluates the generated audio using different metrics.
+
+**Dataset Link:** https://magenta.tensorflow.org/datasets/nsynth. Downloaded the JSON format.
