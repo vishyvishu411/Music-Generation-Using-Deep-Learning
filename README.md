@@ -12,10 +12,14 @@ for various short-form media applications. Please follow the following to view f
 generate spectrograms which are later converted into audio files in ‘.wav’ format.
 
 2. **VAE-gtzan.ipynb:** VAE model for gtzan dataset, https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification.
-However later dropped due to insufficient performance/results.
+However, later dropped due to insufficient performance/results.
 
-3. **gan.ipynb:** GAN model uses the audio files as input to generator and further evaluates the generated audio using different metrics.
+3. **VAE_main.ipynb:** VAE model for Google's Nsynth dataset.
 
-4. **Dataset Link:** https://magenta.tensorflow.org/datasets/nsynth. Downloaded the JSON format.
+4. **Wavenet.ipynb:** Wavenet autoencoder uses Google's Nsynth dataset and further evaluates the generated audio using different metrics.
 
-5. **Project Report.pdf:** Project report that summarizes the results of the utilized models.
+5. **gan.ipynb:** GAN model uses the audio files as input to generator and further evaluates the generated audio using different metrics.
+
+6. **Dataset Link:** https://magenta.tensorflow.org/datasets/nsynth. Downloaded the JSON format.
+
+7. **Project Report.pdf:** Project report that summarizes the results of the utilized models.
